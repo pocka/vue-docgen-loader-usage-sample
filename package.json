@@ -13,7 +13,13 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
+    "vue-docgen-api": "^4.12.0",
+    "vue-docgen-loader": "^1.5.0",
     "vue-template-compiler": "^2.6.11"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
   },
   "browserslist": [
     "> 1%",

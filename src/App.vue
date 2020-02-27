@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <docs :component="HelloWorld">
+      <HelloWorld msg="Welcome to Your Vue.js App" />
+    </docs>
   </div>
 </template>
 
 <script>
+import Docs from './components/Docs'
 import HelloWorld from './components/HelloWorld.vue'
+
+console.dir(HelloWorld)
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Docs
+  },
+  computed: {
+    HelloWorld: () => HelloWorld
   }
 }
 </script>
