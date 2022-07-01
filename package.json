@@ -8,14 +8,14 @@
   },
   "dependencies": {
     "core-js": "^3.23.3",
-    "vue": "^2.6.11"
+    "vue": "^3.2.37"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.6",
     "@vue/cli-service": "~5.0.6",
-    "vue-docgen-api": "^4.12.0",
-    "vue-docgen-loader": "^1.5.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-docgen-api": "^4.47.0",
+    "vue-docgen-loader": "^2.0.0",
+    "vue-template-compiler": "^2.7.0"
   },
   "prettier": {
     "singleQuote": true,
